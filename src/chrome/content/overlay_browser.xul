@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://copy-pure-text/locale/copypuretext.dtd">
+<overlay id="copy-pure-text"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<script type="application/x-javascript" src="chrome://copy-pure-text/content/copypuretext.js"></script>
+		
+
+</overlay>

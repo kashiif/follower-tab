@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://copy-pure-text/locale/copypuretext.dtd">
+<prefwindow id="CopyPureTextPreferences"
+        title="&copypuretext.options.windowtitle;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+  <script type="application/x-javascript" src="chrome://copy-pure-text/content/copypuretext.js"></script>
+  <prefpane>
+    <preferences>
+      <preference id="trimSpace.pref"         name="extensions.copypuretext.trimSpace" type="bool" />
+      <preference id="removeExtraSpaces.pref" name="extensions.copypuretext.removeExtraSpaces" type="bool" />
+      <preference id="removeEmptyLines.pref"  name="extensions.copypuretext.removeEmptyLines" type="bool" />
+      <preference id="overrideDefault.pref"   name="extensions.copypuretext.overrideDefault" type="bool" />
+    </preferences>
+
+	<groupbox>
+		<caption label="&copypuretext.options.grpformatting;" />
+		<checkbox id="chk1_trimSpace" preference="trimSpace.pref" label="&copypuretext.options.lbltrimspace;" />
+		<checkbox id="chk_removeExtraSpaces" preference="removeExtraSpaces.pref" label="&copypuretext.options.lblremoveextraspaces;" />
+		<checkbox id="chk_removeEmptyLines" preference="removeEmptyLines.pref" label="&copypuretext.options.lblremoveemptylines;" />
+	</groupbox>   
+  </prefpane>
+</prefwindow>
